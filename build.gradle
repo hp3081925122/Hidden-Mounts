@@ -1,4 +1,4 @@
-// 当前文件只保留最小的 Forge 开发、构建和运行配置。
+// 当前文件只保留模组本身需要的 Forge 开发、构建和运行配置。
 plugins {
     id 'eclipse'
     id 'idea'
