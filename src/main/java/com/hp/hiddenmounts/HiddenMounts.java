@@ -1,12 +1,13 @@
 package com.hp.hiddenmounts;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.Mod;
 
 @Mod(HiddenMounts.MOD_ID)
 public final class HiddenMounts {
     public static final String MOD_ID = "hiddenmounts";
 
-    public HiddenMounts(FMLJavaModLoadingContext context) {
+    public HiddenMounts(IEventBus modEventBus, ModContainer modContainer) {
     }
 }
